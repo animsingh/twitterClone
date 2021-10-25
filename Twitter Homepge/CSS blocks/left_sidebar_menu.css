@@ -1,0 +1,50 @@
+.left_sidebar_menu{
+    position: fixed;
+    width: 100%;
+}
+.left_sidebar_menu--items{
+    display: flex;
+    font-size: 20px;
+    color: #0F1419;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px;
+    width: 200px;
+} 
+.left_sidebar_menu--items:hover{
+    background: rgba(15, 20, 25, 0.1);
+    color:#0F1419;
+    border-radius: 30px; 
+    cursor: pointer;
+}
+.left_sidebar_menu--items--active{
+    color:#0F1419;
+    font-size: 20px;
+    font-weight: 700;
+}
+.left_sidebar_menu--items--icon{
+    height: 26px;
+    margin-right: 20px;
+}
+
+.left_sidebar_menu--items--active .left_sidebar_menu--items--icon {
+filter: invert(5%) sepia(6%) saturate(3536%) hue-rotate(169deg) brightness(94%) contrast(94%);    
+
+}
+.center_Home_icon{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0 solid black;
+    box-sizing: border-box;
+    align-items: left;
+    padding-left: 16px;
+}
+.top_tweets{
+    display: flex;
+    align-items: flex-end;
+    height:20px;
+    width: 20px;
+    font-weight: 700;
+    padding-right: 16px;
+}

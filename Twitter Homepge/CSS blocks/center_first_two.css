@@ -1,0 +1,33 @@
+.first_two_blocks{
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    margin-bottom: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    
+}
+.center_Home_icon{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-items: left;
+    width: 568px;
+    
+}
+.top_tweets{
+    display: flex;
+    height:20px;
+    width: 20px;
+    font-weight: 700;
+    padding-right: 16px;
+    
+}
+.first_two_blocks:hover{
+cursor: pointer;
+}
+.top_tweets:hover{
+    background-color: rgba(0,0,0,0.03);
+    border-radius: 50%;
+}

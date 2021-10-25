@@ -1,0 +1,8 @@
+.brand{
+    height: 28px;
+    filter: invert(53%) sepia(33%) saturate(4346%) hue-rotate(179deg) brightness(96%) contrast(96%);
+}
+
+.left_sidebar_menu{
+    height: 28px;
+}
